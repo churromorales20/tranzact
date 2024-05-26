@@ -7,18 +7,11 @@ The backend is developed using NestJS and exposes an API to calculate premiums. 
 Setup
 Navigate to the backend directory:
 
-bash
-Copy code
-cd backend
+cd premium-calculator
 Install dependencies:
-
-bash
-Copy code
 npm install
-Start the backend server:
 
-bash
-Copy code
+Start the backend server:
 npm start
 The backend will run on port 3000.
 
@@ -27,20 +20,14 @@ The frontend is a web application that uses jQuery to provide a form for collect
 
 Setup
 Navigate to the frontend directory:
+cd premium-calculator-web/
 
-bash
-Copy code
-cd frontend
 Install dependencies:
-
-bash
-Copy code
 npm install
-Start the frontend server:
 
-bash
-Copy code
+Start the frontend server:
 npm start
+
 The frontend will run on port 3001.
 
 Usage
@@ -49,8 +36,6 @@ Start the frontend server.
 Open your browser and navigate to http://localhost:3001.
 Fill out the form with the user's information and submit to calculate the premium using the backend service.
 Notes
+
 Ensure both the backend and frontend servers are running before attempting to use the application.
 For now, you need to manually start each project in separate terminal windows.
-Thank you for using our project!
-
-This README provides a clear overview of the project, setup instructions for both the backend and frontend, and usage notes.
